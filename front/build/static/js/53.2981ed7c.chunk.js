@@ -1,0 +1,2 @@
+(this["webpackJsonpcosmart-ts"]=this["webpackJsonpcosmart-ts"]||[]).push([[53],{582:function(t,n,o){"use strict";o.r(n),o.d(n,"startStatusTap",(function(){return c}));var e=o(39),c=function(){var t=window;t.addEventListener("statusTap",(function(){Object(e.h)((function(){var n=t.innerWidth,o=t.innerHeight,c=document.elementFromPoint(n/2,o/2);if(c){var i=c.closest("ion-content");i&&i.componentOnReady().then((function(){Object(e.f)((function(){return i.scrollToTop(300)}))}))}}))}))}}}]);
+//# sourceMappingURL=53.2981ed7c.chunk.js.map

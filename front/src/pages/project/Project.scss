@@ -1,0 +1,32 @@
+.project-picture{
+    width: 100%;
+    height: 26rem;
+    object-fit: cover;
+}
+.challenges-list-header{
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.challenge-modal-content{
+    position: relative;
+    overflow-y: scroll;
+    padding: 1.25rem;
+    padding-top: 0.5rem;
+}
+.proj-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.submission-card{
+    cursor: pointer;
+}
+.sc-ion-modal-md .ion-page {
+    text-align: center;
+}
+.my-custom-class-trash .modal-wrapper.sc-ion-modal-md{max-height: 150px;}
