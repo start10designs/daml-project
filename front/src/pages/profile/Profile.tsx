@@ -295,9 +295,9 @@ const Profile = (props: RouteComponentProps) => {
   console.log("requestToJoinProjectAssets", requestToJoinProjectAssets);
 
   const deleteProjectFromStorage = (contactID: any) => {
-    // ledger.exercise(ClientProject.RemoveClientProject, contactID, ClosedClientProject)
-    // .then((data: any)=> console.log('th', data))
-    // .catch((err: any)=> console.log(err));
+     ledger.exercise(ClientProject.RemoveClientProject, contactID,{comment:""})
+    .then((data: any)=> console.log('th', data))
+    .catch((err: any)=> console.log(err));
     console.log(contactID);
   };
 
