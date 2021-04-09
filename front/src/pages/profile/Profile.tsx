@@ -296,11 +296,12 @@ const Profile = (props: RouteComponentProps) => {
 
   const deleteProjectFromStorage = (contactID: any) => {
      ledger.exercise(ClientProject.RemoveClientProject, contactID,{comment:""})
-    .then((data: any)=> console.log('th', data))
+    .then((data: any)=> {setShowTrashProjectModal({ status: false, projectID: "",  contractID: "" });})
     .catch((err: any)=> console.log(err));
     console.log(contactID);
   };
 
+// elastik login
   const handleAddParticipant = async (contractId: any) => {
     ledger
       .exercise(RequestToJoinProject.AddParticipantToProject, contractId, {})
